@@ -1,0 +1,8 @@
+*~
+*.qmd
+data/*
+.jupyter*
+eda_files/*
+.Rproj.user
+*.Rproj
+*.Rhistory
