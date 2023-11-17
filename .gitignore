@@ -6,3 +6,5 @@ eda_files/*
 .Rproj.user
 *.Rproj
 *.Rhistory
+*.Rproj
+__pycache__
