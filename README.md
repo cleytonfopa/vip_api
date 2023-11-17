@@ -3,7 +3,7 @@
 # Welcome to VIP API!
 
 This API enables real-time generation of the probability of becoming a
-*VIP* for a specific user. By using the user’s activity data within the
+*VIP* within 6 months for a specific user. By using the user’s activity data within the
 betting platform during its initial days, a machine learning model
 forecasts the expected probability of VIP.
 
@@ -54,7 +54,7 @@ Once the environment is set up, we can run the API as follows:
   becoming VIP for each player.
 
 - **Input**: `JSON` file containing the **merge between two datasets:
-  *casino* and *players***. See the template file `test.json` in the
+  *casino* and *players***. See the template file `example.json` in the
   `examples/` folder.
 
 - **Response**:
@@ -62,7 +62,7 @@ Once the environment is set up, we can run the API as follows:
   - JSON with the point estimate for the probability of VIP.
 
   For example, for two players:
-  `[{"Username":"erika12144","churn_proba": 0.873},{"Username":"euphobravo","churn_proba": 0.311}]`
+  `[{"Username":"erika12144","vip_proba": 0.0122},{"Username":"euphobravo","vip_proba": 0.311}]`
 
 ## Examples <a name="examples"></a>
 
